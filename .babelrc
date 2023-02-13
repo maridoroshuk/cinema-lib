@@ -1,0 +1,13 @@
+{
+  "plugins": [
+    [
+      "babel-plugin-module-resolver",
+      {
+        "root": "./",
+        "alias": {
+          "@": "./src"
+        }
+      }
+    ]
+  ]
+}
