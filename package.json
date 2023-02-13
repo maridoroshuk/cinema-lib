@@ -81,6 +81,7 @@
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-typescript2": "^0.34.1",
     "size-limit": "^8.1.0",
+    "styled-components": "^5.3.6",
     "tsdx": "^0.14.1",
     "tslib": "^2.4.1",
     "ttypescript": "^1.5.15",
