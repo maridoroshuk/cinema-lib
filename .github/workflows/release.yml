@@ -1,24 +1,22 @@
-name: Release
+name: "publish"
 on:
-  release:
-    types: [created]
+  push:
+    branches: ['main', 'development']
+  pull_request:
+    branches: ['main', 'development']
 jobs:
-  build:
+  release:
+    name: publish
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
         uses: actions/checkout@v2
-
-      - name: Setup .npmrc file to publish to npm
+      - name: node
         uses: actions/setup-node@v1
         with:
-          node-version: "14.x"
+          node-version: "16.x"
           registry-url: "https://registry.npmjs.org"
-
-      - name: Install deps and build (with cache)
-        run: yarn
-
-      - name: Publish to NPM
-        run: yarn publish
+      - name: publish to npm
+        run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
