@@ -20,32 +20,27 @@ const Template: ComponentStory<typeof SeatNumber> = (args) => (
 export const Primary = Template.bind({});
 Primary.args = {
   children: 'SeatNumber',
-  size: 'previous',
   backgroundColor: 'grey',
 };
 export const Secondary = Template.bind({});
 Secondary.args = {
   children: 'SeatNumber',
-  size: 'last',
   backgroundColor: 'grey',
 };
 export const Last = Template.bind({});
 Last.args = {
-  size: 'last',
   backgroundColor: 'grey',
   children: 'SeatNumber',
 };
 
 export const Previous = Template.bind({});
 Previous.args = {
-  size: 'previous',
   backgroundColor: 'grey',
   children: 'SeatNumber',
 };
 
 export const Current = Template.bind({});
 Current.args = {
-  size: 'current',
   backgroundColor: 'gold',
   children: 'SeatNumber',
 };
