@@ -14,7 +14,7 @@ import { NextPlace } from '@/components/Buttons/NextPlaceButton';
 import { PreviousPlace } from '@/components/Buttons/PreviousPlaceButton';
 import { ProfileButton } from '@/components/Buttons/ProfileButton';
 import { SettingsButton } from '@/components/Buttons/SettingsButton';
-import { UnderlineButton } from '@/components/Buttons/UnderlineButton';
+import { HighlightedButton } from '@/components/Buttons/HighlightedButton';
 import { SeatNumber } from '@/components/SeatNumber';
 import { Select } from '@/components/Inputs/Select';
 import { FormHelperText } from '@/components/FormHelperText';
@@ -36,7 +36,7 @@ export {
   Logo,
   ProfileButton,
   SettingsButton,
-  UnderlineButton,
+  HighlightedButton,
   Select,
   FormHelperText,
   Loader,

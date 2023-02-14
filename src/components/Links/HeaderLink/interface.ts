@@ -1,3 +1,5 @@
+import { ReactNode } from "react";
+
 export interface IHeaderLinkProps {
-  children: string;
+  children: ReactNode;
 }

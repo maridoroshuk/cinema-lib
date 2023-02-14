@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const ListItemStyled = styled.li`
+  list-style-type: none;
   a:after {
     content: '';
     width: 0;

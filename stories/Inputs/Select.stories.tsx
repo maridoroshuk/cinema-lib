@@ -1,13 +1,14 @@
 import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 import { Select } from '@/components/Inputs/Select';
+import { Form } from '@/components/Form';
 
 export default {
   title: 'Inputs/Select',
   component: Select,
 } as ComponentMeta<typeof Select>;
 
-const Template: ComponentStory<typeof Select> = (args) => <Select {...args} />;
+const Template: ComponentStory<typeof Select> = (args) => <Form><Select {...args} /></Form>;
 
 export const Primary = Template.bind({});
 
