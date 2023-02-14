@@ -2,10 +2,10 @@ import React from 'react';
 import { ComponentMeta, ComponentStory } from '@storybook/react';
 
 import Account from '@/assets/icons/account.png';
-import { Input } from '@/components/Inputs/Input';
-import { Form } from '@/components/Form';
-import { Modal } from '@/components/Modal';
 import { CloseButton } from '@/components/Buttons/CloseButton';
+import { Form } from '@/components/Form';
+import { Input } from '@/components/Inputs/Input';
+import { Modal } from '@/components/Modal';
 
 import { Wrapper } from './styles';
 
@@ -20,8 +20,12 @@ export default {
 const Template: ComponentStory<typeof Modal> = (args) => (
   <Wrapper>
     <Modal {...args}>
-      <CloseButton />
-      <Form>
+      <CloseButton onClose={() => {}} />
+      <Form
+        initialValues={{ name: '' }}
+        validate={() => {}}
+        onFormSubmit={() => {}}
+      >
         <Input
           icon={Account}
           name="name"

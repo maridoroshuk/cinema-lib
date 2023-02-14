@@ -1,7 +1,8 @@
 import React from 'react';
-import { ComponentStory, ComponentMeta } from '@storybook/react';
-import { Select } from '@/components/Inputs/Select';
+import { ComponentMeta, ComponentStory } from '@storybook/react';
+
 import { Form } from '@/components/Form';
+import { Select } from '@/components/Inputs/Select';
 
 export default {
   title: 'Inputs/Select',
@@ -10,7 +11,7 @@ export default {
 
 const Template: ComponentStory<typeof Select> = (args) => (
   <Form
-    initialValues={{ name: '' }}
+    initialValues={{ gender: '' }}
     validate={() => {}}
     onFormSubmit={() => {}}
   >

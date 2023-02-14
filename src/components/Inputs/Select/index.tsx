@@ -1,6 +1,7 @@
 import React from 'react';
+
 import { ISelectProps } from './interface';
-import { Wrapper, StyledSelect, Option, Label } from './styles';
+import { Label, Option, StyledSelect, Wrapper } from './styles';
 
 export const Select = ({
   config: { name, label, id, options },

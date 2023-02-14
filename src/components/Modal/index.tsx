@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { IModal } from './interface';
 import { Wrapper } from './styles';
 

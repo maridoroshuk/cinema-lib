@@ -1,5 +1,6 @@
 import React from 'react';
 import { Formik } from 'formik';
+
 import { IFormProps } from './interface';
 import { StyledForm } from './styles';
 

@@ -1,9 +1,10 @@
 import React from 'react';
+import { ErrorMessage } from 'formik';
 
 import { Tooltip } from '@/components/Tooltip';
+
 import { IInputProps } from './interface';
-import { Label, Wrapper, StyledField, Icon } from './styles';
-import { ErrorMessage } from 'formik';
+import { Icon, Label, StyledField, Wrapper } from './styles';
 
 export const Input = ({
   type,
