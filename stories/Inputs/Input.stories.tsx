@@ -10,7 +10,11 @@ export default {
   component: Input,
 } as ComponentMeta<typeof Input>;
 
-const Template: ComponentStory<typeof Input> = (args) => <Form><Input {...args} /></Form>;
+const Template: ComponentStory<typeof Input> = (args) => (
+  <Form initialValues={{ name: '' }} validate={() => {}} onFormSubmit={() => {}}>
+    <Input {...args} />
+  </Form>
+);
 
 export const Primary = Template.bind({});
 

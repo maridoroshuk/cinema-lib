@@ -8,7 +8,15 @@ export default {
   component: Select,
 } as ComponentMeta<typeof Select>;
 
-const Template: ComponentStory<typeof Select> = (args) => <Form><Select {...args} /></Form>;
+const Template: ComponentStory<typeof Select> = (args) => (
+  <Form
+    initialValues={{ name: '' }}
+    validate={() => {}}
+    onFormSubmit={() => {}}
+  >
+    <Select {...args} />
+  </Form>
+);
 
 export const Primary = Template.bind({});
 
