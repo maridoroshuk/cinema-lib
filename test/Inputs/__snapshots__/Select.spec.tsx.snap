@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select renders 1`] = `
+.c0 {
+  width: 100%;
+}
+
+.c1 {
+  background-color: #1E1F27;
+  padding: 30px 0;
+  color: #FFFFFF;
+  font-family: 'Poppins',sans-serif;
+  font-size: 20px;
+}
+
+.c2 {
+  width: 100%;
+}
+
+.c3 {
+  width: 100%;
+  background-color: #1E1F27;
+  border: none;
+  outline: none;
+  color: #FFFFFF;
+  padding: 15px 0;
+  font-family: 'Poppins',sans-serif;
+  font-size: 20px;
+}
+
+<form
+  action="#"
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <label
+      class="c2"
+      for="gender-select"
+    >
+      Select gender:
+      <select
+        class="c3"
+        data-testid="select"
+        name="gender"
+      >
+        <option
+          class=""
+          value="male"
+        >
+          male
+        </option>
+        <option
+          class=""
+          value="female"
+        >
+          female
+        </option>
+        <option
+          class=""
+          value="other"
+        >
+          other
+        </option>
+      </select>
+    </label>
+  </div>
+</form>
+`;
+
+exports[`Select renders with female value 1`] = `
+.c0 {
+  width: 100%;
+}
+
+.c1 {
+  background-color: #1E1F27;
+  padding: 30px 0;
+  color: #FFFFFF;
+  font-family: 'Poppins',sans-serif;
+  font-size: 20px;
+}
+
+.c2 {
+  width: 100%;
+}
+
+.c3 {
+  width: 100%;
+  background-color: #1E1F27;
+  border: none;
+  outline: none;
+  color: #FFFFFF;
+  padding: 15px 0;
+  font-family: 'Poppins',sans-serif;
+  font-size: 20px;
+}
+
+<form
+  action="#"
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <label
+      class="c2"
+      for="gender-select"
+    >
+      Select gender:
+      <select
+        class="c3"
+        data-testid="select"
+        name="gender"
+      >
+        <option
+          class=""
+          value="male"
+        >
+          male
+        </option>
+        <option
+          class=""
+          value="female"
+        >
+          female
+        </option>
+        <option
+          class=""
+          value="other"
+        >
+          other
+        </option>
+      </select>
+    </label>
+  </div>
+</form>
+`;

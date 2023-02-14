@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArrowButton renders 1`] = `
+<button
+  class="sc-bcXHqe loWXJg"
+>
+  <img
+    alt="arrow (hide)"
+    class="sc-gswNZR blltSY"
+    src=""
+  />
+</button>
+`;

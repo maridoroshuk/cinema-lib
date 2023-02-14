@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form renders 1`] = `
+.c0 {
+  width: 100%;
+}
+
+.c1 {
+  background-color: #1E1F27;
+  padding: 30px 0;
+  color: #FFFFFF;
+}
+
+.c2 {
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  font-family: 'Poppins',sans-serif;
+  font-size: 20px;
+  word-break: break-word;
+}
+
+.c3 {
+  width: 100%;
+  background-color: #1E1F27;
+  border: none;
+  outline: none;
+  border-bottom: 2.5px solid #FFFFFF;
+  color: #FFFFFF;
+  padding: 15px 0;
+  font-family: 'Poppins',sans-serif;
+  font-size: 20px;
+}
+
+.c3::-webkit-input-placeholder {
+  color: #FFFFFF;
+}
+
+.c3::-moz-placeholder {
+  color: #FFFFFF;
+}
+
+.c3:-ms-input-placeholder {
+  color: #FFFFFF;
+}
+
+.c3::placeholder {
+  color: #FFFFFF;
+}
+
+@media (min-width:860px) {
+  .c3 {
+    max-width: 630px;
+  }
+}
+
+<form
+  action="#"
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <label
+      class="c2"
+      for="email"
+    >
+      <input
+        autocomplete="off"
+        class="c3"
+        id="email"
+        name="email"
+        placeholder="Enter your email"
+        type="email"
+        value=""
+      />
+    </label>
+  </div>
+  <div
+    class="c1"
+  >
+    <label
+      class="c2"
+      for="password"
+    >
+      <input
+        autocomplete="off"
+        class="c3"
+        id="password"
+        name="password"
+        placeholder="Enter your password"
+        type="password"
+        value=""
+      />
+    </label>
+  </div>
+</form>
+`;

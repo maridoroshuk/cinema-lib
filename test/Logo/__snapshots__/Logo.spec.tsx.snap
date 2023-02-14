@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Logo renders large logo 1`] = `
+.c0 {
+  width: 100%;
+  max-width: 255px;
+}
+
+<img
+  alt="company logo (Modsen)"
+  class="c0"
+  src=""
+  width="255"
+/>
+`;
+
+exports[`Logo renders medium logo 1`] = `
+.c0 {
+  width: 100%;
+  max-width: 175px;
+}
+
+<img
+  alt="company logo (Modsen)"
+  class="c0"
+  src=""
+  width="175"
+/>
+`;
+
+exports[`Logo renders small logo 1`] = `
+.c0 {
+  width: 100%;
+  max-width: 125px;
+}
+
+<img
+  alt="company logo (Modsen)"
+  class="c0"
+  src=""
+  width="125"
+/>
+`;

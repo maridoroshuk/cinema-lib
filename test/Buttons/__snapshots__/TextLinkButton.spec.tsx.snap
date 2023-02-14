@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextLinkButton renders with logIn value 1`] = `
+.c0 {
+  font-style: italic;
+  font-size: 20px;
+  color: #FFFFFF;
+  margin-left: 10px;
+  border: none;
+  outline: none;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+<button
+  class="c0"
+  value="logIn"
+>
+  Login please.
+</button>
+`;
+
+exports[`TextLinkButton renders with signUp value 1`] = `
+.c0 {
+  font-style: italic;
+  font-size: 20px;
+  color: #FFFFFF;
+  margin-left: 10px;
+  border: none;
+  outline: none;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+<button
+  class="c0"
+  value="signUp"
+>
+  Sign up please.
+</button>
+`;

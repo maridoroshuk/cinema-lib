@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tooltip renders 1`] = `
+.c0 {
+  width: 100%;
+  word-break: break-word;
+  font-family: 'Inter',sans-serif;
+  font-size: 20px;
+  background-color: #313131;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+}
+
+.c0::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -10px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: #313131 transparent transparent transparent;
+}
+
+<span
+  class="c0"
+>
+  Required
+</span>
+`;

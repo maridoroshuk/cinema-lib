@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SeatNumber renders 1`] = `
+.c0 {
+  border-radius: 10px;
+  border: 1px solid #000000;
+  font-weight: 300;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #D98639;
+  color: #000000;
+  width: 115px;
+  height: 110px;
+}
+
+<div
+  class="c0"
+>
+  1
+</div>
+`;

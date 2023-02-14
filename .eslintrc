@@ -60,6 +60,7 @@
           "**/*.stories.*",
           "**/.storybook/**/*.*",
           "**/stories/**/*.{ts,tsx}",
+          "**/test/**/*.{ts,tsx}",
           "*.{ts,tsx}"
         ],
         "peerDependencies": true

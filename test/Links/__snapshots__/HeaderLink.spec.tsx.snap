@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeaderLink renders 1`] = `
+.c0 {
+  list-style-type: none;
+}
+
+.c0 a:after {
+  content: '';
+  width: 0;
+  height: 2px;
+  color: #000000;
+  display: block;
+  background-color: #D98639;
+  -webkit-transition-duration: 300ms;
+  transition-duration: 300ms;
+  margin-top: 1px;
+}
+
+.c0 a:hover:after {
+  width: 100%;
+}
+
+.c0 a.active:after {
+  width: 100%;
+}
+
+<li
+  class="c0"
+>
+  Home
+</li>
+`;
