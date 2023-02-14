@@ -2,8 +2,8 @@ import React from 'react';
 
 import ArrowImage from '@/assets/icons/arrow.png';
 
-import { Arrow, Wrapper } from './styles';
 import { IArrowButton } from './interface';
+import { Arrow, Wrapper } from './styles';
 
 export const ArrowButton = ({ onClick }: IArrowButton) => {
   return (

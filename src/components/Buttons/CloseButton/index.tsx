@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { ICloseButtonProps } from './interface';
 import { ButtonWrapper, StyledButton } from './styles';
 

@@ -2,8 +2,8 @@ import React from 'react';
 
 import SettingsImage from '@/assets/icons/settings.png';
 
-import { ButtonStyled, Settings } from './styles';
 import { ISettingsButton } from './interface';
+import { ButtonStyled, Settings } from './styles';
 
 export const SettingsButton = ({ onClick }: ISettingsButton) => {
   return (

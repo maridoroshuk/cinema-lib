@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { IProfileButton } from './interface';
 import { ButtonStyled } from './styles';
 

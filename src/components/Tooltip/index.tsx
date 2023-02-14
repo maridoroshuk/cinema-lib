@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { ITooltipProps } from './interface';
 import { Text } from './styles';
 

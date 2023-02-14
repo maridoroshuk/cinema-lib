@@ -1,5 +1,6 @@
 import React from 'react';
-import { ComponentStory, ComponentMeta } from '@storybook/react';
+import { ComponentMeta, ComponentStory } from '@storybook/react';
+
 import { Form } from '@/components/Form';
 import { Input } from '@/index';
 
@@ -22,4 +23,6 @@ Primary.args = {
     email: '',
     password: '',
   },
+  validate: () => {},
+  onFormSubmit: () => {},
 };

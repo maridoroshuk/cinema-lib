@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { background } from './config';
 import { IFormHelperTextProps } from './interface';
 import { Wrapper } from './styles';

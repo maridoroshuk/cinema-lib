@@ -3,8 +3,8 @@ import React from 'react';
 import LogoImage from '@/assets/Logo.png';
 import { getLogoSize } from '@/helpers/getLogoSize';
 
-import { LogoStyled } from './styles';
 import { ILogo } from './interface';
+import { LogoStyled } from './styles';
 
 export const Logo = ({ size }: ILogo) => {
   const width = getLogoSize(size);

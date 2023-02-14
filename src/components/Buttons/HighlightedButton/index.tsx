@@ -1,8 +1,9 @@
 import React from 'react';
+
 import { IUnderlineButton } from './interface';
 import { ButtonStyled } from './styles';
 
-export const UnderlineButton = ({
+export const HighlightedButton = ({
   children,
   handleButtonClick,
   value,
