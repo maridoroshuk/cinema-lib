@@ -9,6 +9,7 @@ export const Form = <T extends {}>({
   initialValues,
   validate,
   onFormSubmit,
+  id,
 }: IFormProps<T>) => {
   return (
     <Formik
@@ -16,7 +17,7 @@ export const Form = <T extends {}>({
       validate={validate}
       onSubmit={onFormSubmit}
     >
-      <StyledForm>{children}</StyledForm>
+      <StyledForm id={id || ''}>{children}</StyledForm>
     </Formik>
   );
 };

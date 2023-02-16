@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { useId } from 'react';
 import { ErrorMessage } from 'formik';
 
 import { Tooltip } from '@/components/Tooltip';
 
 import { IInputProps } from './interface';
-import { Icon, Label, StyledField, Wrapper } from './styles';
+import { AdditionalText, Icon, Label, StyledField, Wrapper } from './styles';
 
 export const Input = ({
   type,
@@ -12,14 +12,17 @@ export const Input = ({
   icon,
   label,
   placeholder,
+  helperText,
 }: IInputProps) => {
+  const inputId = useId();
+
   return (
     <Wrapper>
       <Label htmlFor={name}>
         {label}
         {icon && <Icon src={icon} alt={name} />}
         <StyledField
-          id={name}
+          id={inputId}
           type={type}
           name={name}
           placeholder={placeholder}
@@ -28,6 +31,7 @@ export const Input = ({
         <ErrorMessage name={name}>
           {(message) => <Tooltip>{message}</Tooltip>}
         </ErrorMessage>
+        {helperText && <AdditionalText>{helperText}</AdditionalText>}
       </Label>
     </Wrapper>
   );
