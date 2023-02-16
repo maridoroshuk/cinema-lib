@@ -4,4 +4,5 @@ export interface IInputProps {
   label?: string;
   icon?: string;
   placeholder?: string;
+  helperText?: string;
 }

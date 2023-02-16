@@ -1,7 +1,7 @@
 import { theme } from '@/theme/theme';
 
 export const background = {
-  success: theme.colors.yellowGreen,
-  fail: theme.colors.melon,
-  info: theme.colors.lemon,
+  success: theme.colors.warningSuccess,
+  fail: theme.colors.danger050,
+  info: theme.colors.warning050,
 };
