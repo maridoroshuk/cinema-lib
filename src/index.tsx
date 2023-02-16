@@ -1,6 +1,7 @@
 import { ArrowButton } from '@/components/Buttons/ArrowButton';
 import { Button } from '@/components/Buttons/Button';
 import { CloseButton } from '@/components/Buttons/CloseButton';
+import { HighlightedButton } from '@/components/Buttons/HighlightedButton';
 import { NextPlace } from '@/components/Buttons/NextPlaceButton';
 import { PreviousPlace } from '@/components/Buttons/PreviousPlaceButton';
 import { ProfileButton } from '@/components/Buttons/ProfileButton';
@@ -31,6 +32,7 @@ export {
   FormHelperText,
   GlobalStyle,
   HeaderLink,
+  HighlightedButton,
   Input,
   lightTheme,
   Loader,
