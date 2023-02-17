@@ -7,12 +7,12 @@ interface ButtonProps {
 
 const gold = css`
   background-color: ${({ theme }) => theme.colors.gold};
-  color: ${({ theme }) => theme.colors.defaultWhite};
+  color: ${({ theme }) => theme.colors.neutral000};
 `;
 
 const white = css`
-  background-color: ${({ theme }) => theme.colors.defaultWhite};
-  color: ${({ theme }) => theme.colors.defaultBlack};
+  background-color: ${({ theme }) => theme.colors.neutral000};
+  color: ${({ theme }) => theme.colors.neutral1000};
 `;
 
 const small = css`

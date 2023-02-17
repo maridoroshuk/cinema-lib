@@ -6,4 +6,5 @@ export interface IFormProps<T> {
   initialValues: T;
   validate: (values: T) => void;
   onFormSubmit: (submitValues: T, { setSubmitting }: FormikHelpers<T>) => void;
+  id?: string;
 }
