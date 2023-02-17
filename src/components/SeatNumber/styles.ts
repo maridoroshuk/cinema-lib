@@ -29,6 +29,10 @@ export const StyledSeat = styled.div<Partial<ISeatNumberProps>>`
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: ${({ theme }) => theme.sizes.fontSize[48]}px;
+  line-height: ${({ theme }) => theme.sizes.lineHeight[65]}px;
+  font-weight: ${({ theme }) => theme.sizes.fontWeight[300]};
+  font-family: ${({ theme }) => theme.fontFamily.Nunito};
 
   ${({ backgroundColor }) => {
     switch (backgroundColor) {
