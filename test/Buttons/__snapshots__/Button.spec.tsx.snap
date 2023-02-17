@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button renders large button with value email and type submit 1`] = `
+.c0 {
+  border: 0;
+  cursor: pointer;
+  font-family: 'Poppins',sans-serif;
+  text-align: center;
+  background-color: #D98639;
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 10px 20px;
+  width: 100%;
+  height: 80px;
+  border-radius: 15px;
+}
+
+<button
+  class="c0"
+  type="submit"
+  value="email"
+>
+  Save
+</button>
+`;
+
+exports[`Button renders medium button with background white 1`] = `
+.c0 {
+  border: 0;
+  cursor: pointer;
+  font-family: 'Poppins',sans-serif;
+  text-align: center;
+  background-color: #FFFFFF;
+  color: #000000;
+  font-size: 24px;
+  padding: 10px 20px;
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+}
+
+<button
+  class="c0"
+  type="button"
+  value="signUp"
+>
+  Sign up
+</button>
+`;
+
+exports[`Button renders small button with type button 1`] = `
+.c0 {
+  border: 0;
+  cursor: pointer;
+  font-family: 'Poppins',sans-serif;
+  text-align: center;
+  background-color: #D98639;
+  color: #FFFFFF;
+  font-size: 16px;
+  padding: 10px 20px;
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+}
+
+<button
+  class="c0"
+  type="button"
+  value="signUp"
+>
+  Sign up
+</button>
+`;

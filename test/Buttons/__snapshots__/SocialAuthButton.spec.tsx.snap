@@ -1,0 +1,130 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SocialAuthButton renders facebook button 1`] = `
+.c0 {
+  width: 100%;
+  padding: 15px 30px;
+  color: #FFFFFF;
+  background-color: #1877F2;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.c0:before {
+  width: 20px;
+  height: 20px;
+  content: '';
+  display: inline-block;
+  object-fit: contain;
+  vertical-align: bottom;
+  background-image: url();
+  background-size: cover;
+  margin-right: 20px;
+}
+
+@media (min-width:860px) {
+  .c0 {
+    max-width: 340px;
+    width: 100%;
+  }
+}
+
+<button
+  class="c0"
+  value="facebook"
+>
+  Sign up with Facebook
+</button>
+`;
+
+exports[`SocialAuthButton renders github button 1`] = `
+.c0 {
+  width: 100%;
+  padding: 15px 30px;
+  color: #FFFFFF;
+  background-color: #000000;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.c0:before {
+  width: 20px;
+  height: 20px;
+  content: '';
+  display: inline-block;
+  object-fit: contain;
+  vertical-align: bottom;
+  background-image: url();
+  background-size: cover;
+  margin-right: 20px;
+}
+
+@media (min-width:860px) {
+  .c0 {
+    max-width: 340px;
+    width: 100%;
+  }
+}
+
+<button
+  class="c0"
+  value="github"
+>
+  Sign up with GitHub
+</button>
+`;
+
+exports[`SocialAuthButton renders google button 1`] = `
+.c0 {
+  width: 100%;
+  padding: 15px 30px;
+  color: #0000008c;
+  background-color: #FFFFFF;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.c0:before {
+  width: 20px;
+  height: 20px;
+  content: '';
+  display: inline-block;
+  object-fit: contain;
+  vertical-align: bottom;
+  background-image: url();
+  background-size: cover;
+  margin-right: 20px;
+}
+
+@media (min-width:860px) {
+  .c0 {
+    max-width: 340px;
+    width: 100%;
+  }
+}
+
+<button
+  class="c0"
+  value="google"
+>
+  Continue with Google
+</button>
+`;

@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProfileButton renders 1`] = `
+.c0 {
+  max-width: 280px;
+  width: 100%;
+  padding: 15px 30px;
+  color: #FFFFFF;
+  background-color: transparent;
+  font-family: 'Poppins',sans-serif;
+  line-height: 36px;
+  font-weight: 300;
+  font-size: 30px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+.c0:after {
+  width: 40px;
+  height: 40px;
+  content: '';
+  display: inline-block;
+  vertical-align: bottom;
+  background-image: url();
+  background-size: cover;
+  margin-left: 20px;
+}
+
+<div
+  class="c0"
+>
+  Profile
+</div>
+`;

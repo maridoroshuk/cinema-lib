@@ -10,7 +10,7 @@ export const Select = ({
     <Wrapper>
       <Label htmlFor={id}>
         {label}
-        <StyledSelect component="select" name={name}>
+        <StyledSelect component="select" name={name} data-testid="select">
           {options.map(({ id, value }) => (
             <Option key={id} value={value}>
               {value}
