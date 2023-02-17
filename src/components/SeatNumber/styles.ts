@@ -24,6 +24,10 @@ export const StyledSeat = styled.div<Partial<ISeatNumberProps>>`
   color: ${({ theme }) => theme.colors.neutral1000};
   background-color: ${({ backgroundColor, theme }) =>
     backgroundColor === 'gold' ? theme.colors.gold : theme.colors.neutral050};
+  font-size: ${({ theme }) => theme.sizes.fontSize[48]}px;
+  line-height: ${({ theme }) => theme.sizes.lineHeight[65]}px;
+  font-weight: ${({ theme }) => theme.sizes.fontWeight[300]};
+  font-family: ${({ theme }) => theme.fontFamily.Nunito};
 
   ${({ seatIndex }) => {
     const isLast = seatIndex === 0 || seatIndex === 4;
