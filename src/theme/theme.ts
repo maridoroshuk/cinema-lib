@@ -1,6 +1,6 @@
 import { DefaultTheme, ISelectedTheme } from 'styled-components';
 
-export const lightTheme: ISelectedTheme = {
+export const darkTheme: ISelectedTheme = {
   colors: {
     neutral1000: '#ffffff',
     neutral900: '#a8a8a3',
@@ -28,7 +28,7 @@ export const lightTheme: ISelectedTheme = {
     danger050: '#0c495a',
   },
 };
-export const darkTheme: ISelectedTheme = {
+export const lightTheme: ISelectedTheme = {
   colors: {
     neutral1000: '#000000',
     neutral900: '#1E1F27',
@@ -286,7 +286,15 @@ export const theme: DefaultTheme = {
   },
 
   screenSizes: {
+    320: 320,
+    375: 375,
+    425: 425,
     600: 600,
+    768: 768,
     860: 860,
+    1024: 1024,
+    1140: 1140,
+    1440: 1440,
+    2560: 2560,
   },
 };
