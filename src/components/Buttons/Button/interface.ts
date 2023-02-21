@@ -5,5 +5,5 @@ export interface IButtonProps {
   type?: 'submit' | 'button';
   value: string;
   onClick?: () => void;
-  dataCy: string;
+  dataCy?: string;
 }
