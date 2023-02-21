@@ -24,7 +24,7 @@
     "build-storybook": "build-storybook"
   },
   "peerDependencies": {
-    "react": ">=16"
+    "react":  "^16.8.0 || ^17.0.0 || ^18.0.0"
   },
   "husky": {
     "hooks": {
