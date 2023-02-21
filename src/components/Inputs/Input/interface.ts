@@ -5,5 +5,5 @@ export interface IInputProps {
   icon?: string;
   placeholder?: string;
   helperText?: string;
-  dataCy: string;
+  dataCy?: string;
 }
