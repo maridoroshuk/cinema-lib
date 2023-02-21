@@ -3,9 +3,9 @@ import styled from 'styled-components';
 export const Text = styled.span`
   width: 100%;
   word-break: break-word;
-  font-family: ${({ theme }) => theme.fontFamily.Inter};
-  font-size: ${({ theme }) => theme.sizes.fontSize[20]}px;
-  background-color: ${({ theme }) => theme.colors.neutral700};
+  font-family: ${({ theme }) => theme.fontFamily.Poppins};
+  font-size: ${({ theme }) => theme.sizes.fontSize[15]}px;
+  background-color: ${({ theme }) => theme.colors.neutral050Transparent};
   color: ${({ theme }) => theme.colors.neutral000};
   text-align: center;
   padding: ${({ theme }) => theme.spaces[10]}px;
@@ -22,7 +22,7 @@ export const Text = styled.span`
     margin-left: -${({ theme }) => theme.spaces[10]}px;
     border-width: ${({ theme }) => theme.spaces[10]}px;
     border-style: solid;
-    border-color: ${({ theme }) => theme.colors.neutral700} transparent
-      transparent transparent;
+    border-color: ${({ theme }) => theme.colors.neutral050Transparent}
+      transparent transparent transparent;
   }
 `;
