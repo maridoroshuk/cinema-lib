@@ -21,10 +21,13 @@ export const StyledSeat = styled.div<Partial<ISeatNumberProps>>`
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: ${({ theme }) => theme.sizes.fontSize[48]}px;
+  line-height: ${({ theme }) => theme.sizes.lineHeight[65]}px;
+  font-family: ${({ theme }) => theme.fontFamily.Nunito};
   color: ${({ theme }) => theme.colors.neutral1000};
   background-color: ${({ backgroundColor, theme }) =>
     backgroundColor === 'gold' ? theme.colors.gold : theme.colors.neutral050};
-
+    
   ${({ seatIndex }) => {
     const isLast = seatIndex === 0 || seatIndex === 4;
     const isPrevious = seatIndex === 1 || seatIndex === 3;
