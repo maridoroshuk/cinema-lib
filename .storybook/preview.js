@@ -1,7 +1,7 @@
 import React from 'react';
 import { addDecorator } from '@storybook/react';
 import { ThemeProvider } from 'styled-components';
-import { theme, lightTheme, darkTheme } from '@/theme/theme';
+import { theme, lightTheme } from '@/theme/theme';
 import GlobalStyle from '@/theme/globalStyles';
 
 addDecorator((story) => (
@@ -19,7 +19,7 @@ export const parameters = {
     values: [
       {
         name: 'dark',
-        value: darkTheme.colors.neutral900,
+        value: lightTheme.colors.neutral900,
       },
     ],
   },
