@@ -1,39 +1,14 @@
 import 'styled-components';
 
 declare module 'styled-components' {
-  export interface DefaultTheme {
+  export interface ISelectedTheme {
     colors: {
-      defaultBlack: string;
-      pageBackground: string;
-      defaultWhite: string;
-      gold: string;
-      grey: string;
-      darkGrey: string;
-      darkGrey2: string;
-      lightGrey: string;
-      lightGrey2: string;
-      reviewsBackground: string;
-      filmGradient: string;
-      purple: string;
-      darkBlue: string;
-      cyanBlue: string;
-      darkRed: string;
-      tundora: string;
-      greyTransparent: string;
-      lightGreyTransparent: string;
-      customTextShadow: string;
-      transparent: string;
-      hallBackground: string;
-      lemon: string;
-      yellowGreen: string;
-      melon: string;
-      purple: string;
-      transparent: string;
-      hallBackground: string;
-      lemon: string;
-      yellowGreen: string;
-      melon: string;
+      [key: string]: string;
     };
+  }
+
+  export interface DefaultTheme {
+    colors: ISelectedTheme['colors'];
     fontFamily: {
       Inria: string;
       Inter: string;
@@ -59,9 +34,6 @@ declare module 'styled-components' {
       [index: number]: number;
     };
     zIndex: {
-      [index: number]: number;
-    };
-    screenSizes: {
       [index: number]: number;
     };
     positions: {

@@ -1,13 +1,13 @@
 import React from 'react';
 import { addDecorator } from '@storybook/react';
 import { ThemeProvider } from 'styled-components';
-import { theme } from '../src/theme/theme';
-import GlobalStyle from '../src/theme/globalStyles';
+import { theme, lightTheme } from '@/theme/theme';
+import GlobalStyle from '@/theme/globalStyles';
 
 addDecorator((story) => (
   <>
     <GlobalStyle />
-    <ThemeProvider theme={theme}>{story()}</ThemeProvider>
+    <ThemeProvider theme={{...theme, ...lightTheme}}>{story()}</ThemeProvider>
   </>
 ));
 
@@ -19,15 +19,7 @@ export const parameters = {
     values: [
       {
         name: 'dark',
-        value: theme.colors.pageBackground,
-      },
-      {
-        name: 'purple',
-        value: theme.colors.purple,
-      },
-      {
-        name: 'portal',
-        value: theme.colors.lightGreyTransparent,
+        value: lightTheme.colors.neutral900,
       },
     ],
   },

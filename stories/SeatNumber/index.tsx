@@ -9,7 +9,7 @@ export default {
   argTypes: {
     backgroundColor: {
       control: 'radio',
-      options: ['gold', 'grey'],
+      options: ['gold', 'neutral050'],
     },
   },
 } as ComponentMeta<typeof SeatNumber>;
@@ -20,22 +20,22 @@ const Template: ComponentStory<typeof SeatNumber> = (args) => (
 export const Primary = Template.bind({});
 Primary.args = {
   children: 'SeatNumber',
-  backgroundColor: 'grey',
+  backgroundColor: 'neutral050',
 };
 export const Secondary = Template.bind({});
 Secondary.args = {
   children: 'SeatNumber',
-  backgroundColor: 'grey',
+  backgroundColor: 'neutral050',
 };
 export const Last = Template.bind({});
 Last.args = {
-  backgroundColor: 'grey',
+  backgroundColor: 'neutral050',
   children: 'SeatNumber',
 };
 
 export const Previous = Template.bind({});
 Previous.args = {
-  backgroundColor: 'grey',
+  backgroundColor: 'neutral050',
   children: 'SeatNumber',
 };
 

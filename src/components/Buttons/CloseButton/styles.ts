@@ -11,7 +11,7 @@ export const StyledButton = styled.button`
   width: ${({ theme }) => theme.sizes.width[50]}px;
   height: ${({ theme }) => theme.sizes.width[50]}px;
   border-radius: 50%;
-  background-color: ${({ theme }) => theme.colors.lightGreyTransparent};
+  background-color: ${({ theme }) => theme.colors.neutral300Transparent};
   display: flex;
   align-items: center;
   justify-content: center;
@@ -24,7 +24,7 @@ export const StyledButton = styled.button`
     position: absolute;
     width: ${({ theme }) => theme.sizes.width[30]}px;
     height: ${({ theme }) => theme.sizes.height[2]}px;
-    background-color: ${({ theme }) => theme.colors.defaultWhite};
+    background-color: ${({ theme }) => theme.colors.neutral000};
   }
   &:before {
     transform: rotate(45deg);

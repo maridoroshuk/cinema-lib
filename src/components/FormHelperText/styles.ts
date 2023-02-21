@@ -8,6 +8,6 @@ export const Wrapper = styled.div<{
   font-family: ${({ theme }) => theme.fontFamily.Poppins};
   font-size: ${({ theme }) => theme.sizes.fontSize[20]}px;
   border-radius: ${({ theme }) => theme.spaces[10]}px;
-  color: ${({ theme }) => theme.colors.defaultBlack};
+  color: ${({ theme }) => theme.colors.neutral1000};
   background-color: ${({ background }) => background};
 `;

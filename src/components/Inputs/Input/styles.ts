@@ -2,10 +2,10 @@ import { Field } from 'formik';
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-  background-color: ${({ theme }) => theme.colors.pageBackground};
+  background-color: ${({ theme }) => theme.colors.neutral900};
   padding: ${({ theme }) => `${theme.spaces[30]}px 0`};
 
-  color: ${({ theme }) => theme.colors.defaultWhite};
+  color: ${({ theme }) => theme.colors.neutral000};
 `;
 
 export const Label = styled.label<{ icon?: string }>`
@@ -22,19 +22,19 @@ export const StyledField = styled(Field)<{
   icon?: string;
 }>`
   width: 100%;
-  background-color: ${({ theme }) => theme.colors.pageBackground};
+  background-color: ${({ theme }) => theme.colors.neutral900};
   border: none;
   outline: none;
   border-bottom: ${({ theme, error }) =>
-    `2.5px solid ${error ? theme.colors.darkRed : theme.colors.defaultWhite}`};
+    `2.5px solid ${error ? theme.colors.danger : theme.colors.neutral000}`};
   color: ${({ theme, error }) =>
-    error ? theme.colors.darkRed : theme.colors.defaultWhite};
+    error ? theme.colors.danger : theme.colors.neutral000};
   padding: ${({ theme }) => `${theme.spaces[15]}px 0`};
   font-family: ${({ theme }) => theme.fontFamily.Poppins};
   font-size: ${({ theme }) => theme.sizes.fontSize[20]}px;
 
   ::placeholder {
-    color: ${({ theme }) => theme.colors.defaultWhite};
+    color: ${({ theme }) => theme.colors.neutral000};
   }
 
   @media (min-width: ${({ theme }) => theme.screenSizes[860]}px) {
@@ -54,4 +54,13 @@ export const Icon = styled.img`
   @media (min-width: ${({ theme }) => theme.screenSizes[860]}px) {
     display: inline-block;
   }
+`;
+
+export const AdditionalText = styled.p`
+  position: absolute;
+  right: 0;
+  font-style: italic;
+  font-family: ${({ theme }) => theme.fontFamily.Poppins};
+  font-size: ${({ theme }) => theme.sizes.fontSize[15]}px;
+  word-break: break-word;
 `;
