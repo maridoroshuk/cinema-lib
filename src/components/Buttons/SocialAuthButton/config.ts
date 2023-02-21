@@ -6,7 +6,7 @@ import { theme } from '@/theme/theme';
 export const googleStyles: TConfigLogoButton = {
   logo: Google,
   textColor: theme.colors.neutral050Transparent,
-  background: theme.colors.neutral000,
+  background: theme.colors.customBackground,
 };
 
 export const facebookStyles: TConfigLogoButton = {
