@@ -11,6 +11,7 @@ export const Button = ({
   type,
   value,
   onClick,
+  dataCy
 }: IButtonProps) => {
   return (
     <ButtonStyled
@@ -19,6 +20,7 @@ export const Button = ({
       type={type || 'button'}
       value={value}
       onClick={onClick}
+      data-cy={dataCy}
     >
       {children}
     </ButtonStyled>

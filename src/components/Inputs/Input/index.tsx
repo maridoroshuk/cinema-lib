@@ -13,6 +13,7 @@ export const Input = ({
   label,
   placeholder,
   helperText,
+  dataCy
 }: IInputProps) => {
   const inputId = useId();
 
@@ -27,6 +28,7 @@ export const Input = ({
           name={name}
           placeholder={placeholder}
           autoComplete="off"
+          data-cy={dataCy}
         />
         <ErrorMessage name={name}>
           {(message) => <Tooltip>{message}</Tooltip>}
