@@ -3,20 +3,20 @@ import { DefaultTheme, ISelectedTheme } from 'styled-components';
 export const lightTheme: ISelectedTheme = {
   colors: {
     neutral1000: '#ffffff',
-    neutral900: '#a8a8a3',
+    neutral900: '#90908d',
     neutral000: '#000000',
     gold: '#D98639',
-    neutral050: '#cecece',
-    neutral700: '#313131',
+    neutral050: '#424242',
+    neutral700: '#cecece',
     neutral800: '#e3e3e3',
-    neutral300: '#89871a',
+    neutral300: '#767678E5',
     neutral400: '#898987',
     reviewsBackground: '#4f4f4f4d',
     filmGradient: '#9a9bcf8f',
     primary800: '#e1e0d8',
     primary400: '#e7880d',
     danger: '#38c1e2',
-    action500: '#b4d298',
+    action500: '#9a9bcf8f',
     neutral500: '#b7b8b8',
     neutral050Transparent: '#0000008c',
     neutral300Transparent: '#d9d9d933',
@@ -26,6 +26,7 @@ export const lightTheme: ISelectedTheme = {
     warning050: '#02073c',
     warningSuccess: '#311c5f',
     danger050: '#0c495a',
+    customBackground: '#ffffff'
   },
 };
 export const darkTheme: ISelectedTheme = {
@@ -54,6 +55,7 @@ export const darkTheme: ISelectedTheme = {
     warning050: '#FDF8C3',
     warningSuccess: '#CEE3A0',
     danger050: '#F3B6A5',
+    customBackground: '#ffffff'
   },
 };
 
