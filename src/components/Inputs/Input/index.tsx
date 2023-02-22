@@ -13,7 +13,7 @@ export const Input = ({
   label,
   placeholder,
   helperText,
-  dataCy
+  dataCy,
 }: IInputProps) => {
   const inputId = useId();
 
