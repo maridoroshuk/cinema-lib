@@ -11,7 +11,7 @@ export const Button = ({
   type,
   value,
   onClick,
-  dataCy
+  dataCy,
 }: IButtonProps) => {
   return (
     <ButtonStyled
