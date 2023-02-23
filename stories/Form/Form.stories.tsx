@@ -11,8 +11,18 @@ export default {
 
 const Template: ComponentStory<typeof Form> = (args) => (
   <Form {...args}>
-    <Input name="email" type="email" placeholder="Enter your email" />
-    <Input name="password" type="password" placeholder="Enter your password" />
+    <Input
+      name="email"
+      type="email"
+      placeholder="Enter your email"
+      onInputChange={() => {}}
+    />
+    <Input
+      name="password"
+      type="password"
+      placeholder="Enter your password"
+      onInputChange={() => {}}
+    />
   </Form>
 );
 
