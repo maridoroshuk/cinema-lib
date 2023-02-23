@@ -5,5 +5,6 @@ export interface IInputProps {
   icon?: string;
   placeholder?: string;
   helperText?: string;
+  onInputChange?: () => void;
   dataCy?: string;
 }

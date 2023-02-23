@@ -1,5 +1,7 @@
+import { ReactNode } from 'react';
+
 export interface IButtonProps {
-  children: string;
+  children: string | ReactNode;
   backgroundColor?: string;
   size?: 'small' | 'medium' | 'large';
   type?: 'submit' | 'button';

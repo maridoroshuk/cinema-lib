@@ -13,7 +13,8 @@ export const Input = ({
   label,
   placeholder,
   helperText,
-  dataCy
+  onInputChange,
+  dataCy,
 }: IInputProps) => {
   const inputId = useId();
 
@@ -28,6 +29,7 @@ export const Input = ({
           name={name}
           placeholder={placeholder}
           autoComplete="off"
+          onKeyUp={onInputChange}
           data-cy={dataCy}
         />
         <ErrorMessage name={name}>

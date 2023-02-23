@@ -16,5 +16,4 @@ export const Primary = Template.bind({});
 
 Primary.args = {
   message: 'The data was updated',
-  type: 'success',
 };

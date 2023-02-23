@@ -27,4 +27,5 @@ Primary.args = {
   name: 'name',
   placeholder: 'Enter your name',
   type: 'text',
+  onInputChange: () => {},
 };

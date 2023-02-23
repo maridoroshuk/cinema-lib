@@ -58,7 +58,7 @@ export const Icon = styled.img`
 
 export const AdditionalText = styled.p`
   position: absolute;
-  right: 0;
+  left: 0;
   font-style: italic;
   font-family: ${({ theme }) => theme.fontFamily.Poppins};
   font-size: ${({ theme }) => theme.sizes.fontSize[15]}px;
