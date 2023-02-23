@@ -23,10 +23,7 @@ export const darkTheme: ISelectedTheme = {
     customTextShadow: '#00000040',
     transparent: 'transparent',
     hallBackground: '#5a5a5ccc',
-    warning050: '#02073c',
-    warningSuccess: '#311c5f',
-    danger050: '#0c495a',
-    customBackground: '#ffffff'
+    customBackground: '#ffffff',
   },
 };
 export const lightTheme: ISelectedTheme = {
@@ -52,10 +49,7 @@ export const lightTheme: ISelectedTheme = {
     customTextShadow: '#00000040',
     transparent: 'transparent',
     hallBackground: '#5a5a5ccc',
-    warning050: '#FDF8C3',
-    warningSuccess: '#CEE3A0',
-    danger050: '#F3B6A5',
-    customBackground: '#ffffff'
+    customBackground: '#ffffff',
   },
 };
 
