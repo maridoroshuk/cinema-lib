@@ -6,7 +6,7 @@ export const ListItemStyled = styled.li`
     content: '';
     width: 0;
     height: ${({ theme }) => theme.sizes.height[2]}px;
-    color: ${({ theme }) => theme.colors.neutral1000};
+    color: ${({ theme }) => theme.colors.neutral000};
     display: block;
     background-color: ${({ theme }) => theme.colors.gold};
     transition-duration: 300ms;

@@ -26,7 +26,8 @@ export const darkTheme: ISelectedTheme = {
     warning050: '#02073c',
     warningSuccess: '#311c5f',
     danger050: '#0c495a',
-    customBackground: '#ffffff'
+    customBlack: '#000000',
+    customBackground: '#ffffff',
   },
 };
 export const lightTheme: ISelectedTheme = {
@@ -55,7 +56,8 @@ export const lightTheme: ISelectedTheme = {
     warning050: '#FDF8C3',
     warningSuccess: '#CEE3A0',
     danger050: '#F3B6A5',
-    customBackground: '#ffffff'
+    customBlack: '#000000',
+    customBackground: '#ffffff',
   },
 };
 
