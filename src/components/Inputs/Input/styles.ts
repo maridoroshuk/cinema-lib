@@ -37,7 +37,7 @@ export const StyledField = styled(Field)<{
     color: ${({ theme }) => theme.colors.neutral000};
   }
 
-  @media (min-width: ${({ theme }) => theme.screenSizes[860]}px) {
+  @media (min-width: ${({ theme }) => theme.screenSizes[900]}px) {
     max-width: ${({ theme }) => theme.sizes.width[630]}px;
   }
 `;
