@@ -10,6 +10,6 @@ export const Wrapper = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: ${({ theme }) => theme.colors.neutral900};
+  background: ${({ theme }) => theme.colors.primary800};
   z-index: ${({ theme }) => theme.zIndex[3000]};
 `;
