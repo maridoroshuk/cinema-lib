@@ -30,7 +30,7 @@ export const StyledSeat = styled.div<Partial<ISeatNumberProps>>`
   font-size: ${({ theme }) => theme.sizes.fontSize[48]}px;
   line-height: ${({ theme }) => theme.sizes.lineHeight[65]}px;
   font-family: ${({ theme }) => theme.fontFamily.Nunito};
-  
+
   ${({ seatIndex }) => {
     const isLast = seatIndex === 0 || seatIndex === 4;
     const isPrevious = seatIndex === 1 || seatIndex === 3;
