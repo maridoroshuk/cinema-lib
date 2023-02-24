@@ -3,7 +3,7 @@ import { DefaultTheme, ISelectedTheme } from 'styled-components';
 export const darkTheme: ISelectedTheme = {
   colors: {
     neutral1000: '#ffffff',
-    neutral900: '#90908d',
+    neutral900: '#1E1F27',
     neutral000: '#000000',
     gold: '#D98639',
     neutral050: '#424242',
@@ -32,7 +32,7 @@ export const darkTheme: ISelectedTheme = {
 export const lightTheme: ISelectedTheme = {
   colors: {
     neutral1000: '#000000',
-    neutral900: '#1E1F27',
+    neutral900: '#90908d',
     neutral000: '#FFFFFF',
     gold: '#D98639',
     neutral050: '#BDBDBD',
