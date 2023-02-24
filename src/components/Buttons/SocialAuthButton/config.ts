@@ -11,12 +11,12 @@ export const googleStyles: TConfigLogoButton = {
 
 export const facebookStyles: TConfigLogoButton = {
   logo: Facebook,
-  textColor: theme.colors.neutral000,
+  textColor: theme.colors.customBackground,
   background: theme.colors.primary400,
 };
 
 export const githubStyles: TConfigLogoButton = {
   logo: Github,
-  textColor: theme.colors.neutral000,
-  background: theme.colors.neutral1000,
+  textColor: theme.colors.customBackground,
+  background: theme.colors.customBlack,
 };
