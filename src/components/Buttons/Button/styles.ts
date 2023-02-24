@@ -16,7 +16,6 @@ const white = css`
 `;
 
 const small = css`
-  font-size: ${({ theme }) => theme.sizes.fontSize[16]}px;
   padding: ${({ theme }) => theme.spaces[10]}px
     ${({ theme }) => theme.spaces[20]}px;
   width: 100%;
@@ -25,7 +24,6 @@ const small = css`
 `;
 
 const medium = css`
-  font-size: ${({ theme }) => theme.sizes.fontSize[24]}px;
   padding: ${({ theme }) => theme.spaces[10]}px
     ${({ theme }) => theme.spaces[20]}px;
   width: 100%;
@@ -34,7 +32,6 @@ const medium = css`
 `;
 
 const large = css`
-  font-size: ${({ theme }) => theme.sizes.fontSize[24]}px;
   font-weight: ${({ theme }) => theme.sizes.fontWeight[700]};
   padding: ${({ theme }) => theme.spaces[10]}px
     ${({ theme }) => theme.spaces[20]}px;
@@ -44,6 +41,10 @@ const large = css`
 `;
 
 export const ButtonStyled = styled.button<ButtonProps>`
+  font-size: clamp(
+    ${({ theme }) =>
+      `${theme.sizes.fontSize[20]}px, 2.5vw, ${theme.sizes.fontSize[24]}px`}
+  );
   border: 0;
   cursor: pointer;
   font-family: ${({ theme }) => theme.fontFamily.Poppins};

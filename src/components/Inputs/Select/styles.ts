@@ -2,7 +2,7 @@ import { Field } from 'formik';
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-  background-color: ${({ theme }) => theme.colors.neutral900};
+  background-color: ${({ theme }) => theme.colors.primary800};
   padding: ${({ theme }) => `${theme.spaces[30]}px 0`};
   color: ${({ theme }) => theme.colors.neutral000};
   font-family: ${({ theme }) => theme.fontFamily.Poppins};
@@ -15,7 +15,7 @@ export const Label = styled.label`
 
 export const StyledSelect = styled(Field)`
   width: 100%;
-  background-color: ${({ theme }) => theme.colors.neutral900};
+  background-color: ${({ theme }) => theme.colors.primary800};
   border: none;
   outline: none;
   color: ${({ theme }) => theme.colors.neutral000};
