@@ -3,7 +3,7 @@ import { DefaultTheme, ISelectedTheme } from 'styled-components';
 export const darkTheme: ISelectedTheme = {
   colors: {
     neutral1000: '#ffffff',
-    neutral900: '#90908d',
+    neutral900: '#1E1F27',
     neutral000: '#000000',
     gold: '#D98639',
     neutral050: '#424242',
@@ -23,13 +23,16 @@ export const darkTheme: ISelectedTheme = {
     customTextShadow: '#00000040',
     transparent: 'transparent',
     hallBackground: '#5a5a5ccc',
-    customBackground: '#ffffff',
+    warning050: '#02073c',
+    warningSuccess: '#311c5f',
+    danger050: '#0c495a',
+    customBackground: '#ffffff'
   },
 };
 export const lightTheme: ISelectedTheme = {
   colors: {
     neutral1000: '#000000',
-    neutral900: '#1E1F27',
+    neutral900: '#90908d',
     neutral000: '#FFFFFF',
     gold: '#D98639',
     neutral050: '#BDBDBD',
@@ -49,7 +52,10 @@ export const lightTheme: ISelectedTheme = {
     customTextShadow: '#00000040',
     transparent: 'transparent',
     hallBackground: '#5a5a5ccc',
-    customBackground: '#ffffff',
+    warning050: '#FDF8C3',
+    warningSuccess: '#CEE3A0',
+    danger050: '#F3B6A5',
+    customBackground: '#ffffff'
   },
 };
 
