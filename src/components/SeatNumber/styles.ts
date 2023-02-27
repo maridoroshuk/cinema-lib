@@ -24,7 +24,7 @@ export const StyledSeat = styled.div<Partial<ISeatNumberProps>>`
   font-size: ${({ theme }) => theme.sizes.fontSize[48]}px;
   line-height: ${({ theme }) => theme.sizes.lineHeight[65]}px;
   font-family: ${({ theme }) => theme.fontFamily.Nunito};
-  color: ${({ theme }) => theme.colors.neutral1000};
+  color: ${({ theme }) => theme.colors.neutral000};
   background-color: ${({ backgroundColor, theme }) =>
     backgroundColor === 'gold' ? theme.colors.gold : theme.colors.neutral050};
   font-size: ${({ theme }) => theme.sizes.fontSize[48]}px;
