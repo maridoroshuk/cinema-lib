@@ -11,7 +11,7 @@ export const Wrapper = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: ${({ theme }) => theme.colors.primary800};
+  background: ${({ theme }) => theme.colors.neutral900};
   z-index: ${({ theme }) => theme.zIndex[3000]};
 
   @media (min-width: ${({ theme }) => theme.screenSizes[600]}px) {
