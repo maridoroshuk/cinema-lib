@@ -57,7 +57,7 @@ export const Icon = styled.img`
   vertical-align: bottom;
   aspect-ratio: 1 / 1;
 
-  @media (min-width: ${({ theme }) => theme.screenSizes[860]}px) {
+  @media (min-width: ${({ theme }) => theme.screenSizes[900]}px) {
     display: inline-block;
   }
 `;
