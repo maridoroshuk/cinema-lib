@@ -19,7 +19,6 @@ import { Logo } from '@/components/Logo';
 import { Modal } from '@/components/Modal';
 import { SeatNumber } from '@/components/SeatNumber';
 import { Tooltip } from '@/components/Tooltip';
-import GlobalStyle from '@/theme/globalStyles';
 import { darkTheme, lightTheme, theme } from '@/theme/theme';
 
 export {
@@ -30,7 +29,6 @@ export {
   EmailInput,
   Form,
   FormHelperText,
-  GlobalStyle,
   HeaderLink,
   HighlightedButton,
   Input,
