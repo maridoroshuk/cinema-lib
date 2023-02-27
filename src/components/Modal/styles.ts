@@ -14,7 +14,7 @@ export const Wrapper = styled.div`
   background: ${({ theme }) => theme.colors.primary800};
   z-index: ${({ theme }) => theme.zIndex[3000]};
 
-  @media (min-width: ${({ theme }) => theme.screenSizes[860]}px) {
+  @media (min-width: ${({ theme }) => theme.screenSizes[600]}px) {
     padding: ${({ theme }) => theme.spaces[40]}px
       ${({ theme }) => theme.spaces[70]}px;
   }
