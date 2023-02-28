@@ -6,7 +6,7 @@ import { ButtonWrapper, StyledButton } from './styles';
 export const CloseButton = ({ onClose }: ICloseButtonProps) => {
   return (
     <ButtonWrapper>
-      <StyledButton onClick={onClose} />
+      <StyledButton onClick={onClose} value="closeButton"/>
     </ButtonWrapper>
   );
 };
