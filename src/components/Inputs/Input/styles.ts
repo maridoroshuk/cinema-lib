@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.div`
   background-color: ${({ theme }) => theme.colors.primary800};
-  padding: ${({ theme }) => `${theme.spaces[30]}px 0`};
+  padding: ${({ theme }) => `min(2.5vw, ${theme.spaces[30]}px) 0`};
 
   color: ${({ theme }) => theme.colors.neutral000};
 `;

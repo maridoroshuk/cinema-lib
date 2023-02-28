@@ -11,16 +11,12 @@ export const Button = styled.button<{
   background-color: ${({ background }) => background};
   font-family: ${({ theme }) => theme.fontFamily.Poppins};
   font-weight: ${({ theme }) => theme.sizes.fontWeight[600]};
-  font-size: clamp(
-    ${({ theme }) =>
-      `${theme.sizes.fontSize[10]}px, 2.5vw, ${theme.sizes.fontSize[14]}px`}
-  );  border: none;
+  font-size: ${({ theme }) => theme.sizes.fontSize[14]}px;
+  border: none;
   border-radius: ${({ theme }) => theme.spaces[10]}px;
   cursor: pointer;
   text-align: center;
   margin: 0 auto;
-
-
 
   @media (min-width: ${({ theme }) => theme.screenSizes[600]}px) {
     padding: ${({ theme }) => `${theme.spaces[15]}px ${theme.spaces[30]}px`};
