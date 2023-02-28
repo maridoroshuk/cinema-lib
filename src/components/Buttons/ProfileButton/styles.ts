@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 import Profile from '@/assets/icons/profile.png';
 
-export const ButtonStyled = styled.div`
+export const ButtonStyled = styled.button`
   max-width: ${({ theme }) => theme.sizes.width[280]}px;
   width: 100%;
   padding: ${({ theme }) => `${theme.spaces[15]}px ${theme.spaces[30]}px`};
