@@ -16,26 +16,17 @@ const white = css`
 `;
 
 const small = css`
-  padding: ${({ theme }) => theme.spaces[10]}px
-    ${({ theme }) => theme.spaces[20]}px;
-  width: 100%;
   height: ${({ theme }) => theme.sizes.height[50]}px;
   border-radius: ${({ theme }) => theme.sizes.borderRadius[10]}px;
 `;
 
 const medium = css`
-  padding: ${({ theme }) => theme.spaces[10]}px
-    ${({ theme }) => theme.spaces[20]}px;
-  width: 100%;
   height: ${({ theme }) => theme.sizes.height[50]}px;
   border-radius: ${({ theme }) => theme.sizes.borderRadius[10]}px;
 `;
 
 const large = css`
   font-weight: ${({ theme }) => theme.sizes.fontWeight[700]};
-  padding: ${({ theme }) => theme.spaces[10]}px
-    ${({ theme }) => theme.spaces[20]}px;
-  width: 100%;
   height: ${({ theme }) => theme.sizes.height[80]}px;
   border-radius: ${({ theme }) => theme.sizes.borderRadius[15]}px;
 `;
@@ -43,12 +34,14 @@ const large = css`
 export const ButtonStyled = styled.button<ButtonProps>`
   font-size: clamp(
     ${({ theme }) =>
-      `${theme.sizes.fontSize[20]}px, 2.5vw, ${theme.sizes.fontSize[24]}px`}
+      `${theme.sizes.fontSize[16]}px, 2.5vw, ${theme.sizes.fontSize[20]}px`}
   );
   border: 0;
   cursor: pointer;
   font-family: ${({ theme }) => theme.fontFamily.Poppins};
   text-align: center;
+  padding: ${({ theme }) => theme.spaces[5]}px
+  ${({ theme }) => theme.spaces[10]}px;
 
   ${({ backgroundColor }) => {
     switch (backgroundColor) {
@@ -73,4 +66,10 @@ export const ButtonStyled = styled.button<ButtonProps>`
         return medium;
     }
   }}
+
+
+  @media (min-width: ${({ theme }) => theme.screenSizes[600]}px) {
+    padding: ${({ theme }) => theme.spaces[10]}px
+    ${({ theme }) => theme.spaces[20]}px;
+  }
 `;
