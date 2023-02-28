@@ -16,7 +16,6 @@ const white = css`
 `;
 
 const small = css`
-  height: ${({ theme }) => theme.sizes.height[50]}px;
   border-radius: ${({ theme }) => theme.sizes.borderRadius[10]}px;
 `;
 
@@ -32,6 +31,7 @@ const large = css`
 `;
 
 export const ButtonStyled = styled.button<ButtonProps>`
+  width: 100%;
   font-size: clamp(
     ${({ theme }) =>
       `${theme.sizes.fontSize[16]}px, 2.5vw, ${theme.sizes.fontSize[20]}px`}
@@ -41,7 +41,7 @@ export const ButtonStyled = styled.button<ButtonProps>`
   font-family: ${({ theme }) => theme.fontFamily.Poppins};
   text-align: center;
   padding: ${({ theme }) => theme.spaces[5]}px
-  ${({ theme }) => theme.spaces[10]}px;
+    ${({ theme }) => theme.spaces[10]}px;
 
   ${({ backgroundColor }) => {
     switch (backgroundColor) {
@@ -70,6 +70,6 @@ export const ButtonStyled = styled.button<ButtonProps>`
 
   @media (min-width: ${({ theme }) => theme.screenSizes[600]}px) {
     padding: ${({ theme }) => theme.spaces[10]}px
-    ${({ theme }) => theme.spaces[20]}px;
+      ${({ theme }) => theme.spaces[20]}px;
   }
 `;

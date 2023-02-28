@@ -6,7 +6,7 @@ export const Button = styled.button<{
   background: string;
 }>`
   width: 100%;
-  padding: ${({ theme }) => `${theme.spaces[10]}px ${theme.spaces[20]}px`};
+  padding: ${({ theme }) => `${theme.spaces[5]}px ${theme.spaces[10]}px`};
   color: ${({ textColor }) => textColor};
   background-color: ${({ background }) => background};
   font-family: ${({ theme }) => theme.fontFamily.Poppins};
