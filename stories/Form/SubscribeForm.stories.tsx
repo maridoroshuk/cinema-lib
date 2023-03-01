@@ -11,7 +11,7 @@ export default {
 
 const Template: ComponentStory<typeof Form> = (args) => (
   <Form {...args}>
-    <EmailInput />
+    <EmailInput placeholder='Enter email'/>
   </Form>
 );
 
