@@ -25,7 +25,7 @@ export const StyledField = styled(Field)<{
   icon?: string;
 }>`
   width: 100%;
-  background-color: ${({ theme }) => theme.colors.primary800};
+  background-color: ${({ theme }) => theme.colors.neutral900};
   border: none;
   outline: none;
   border-bottom: ${({ theme, error }) =>
