@@ -19,9 +19,12 @@ export const Button = styled.button<{
   margin: 0 auto;
 
   @media (min-width: ${({ theme }) => theme.screenSizes[860]}px) {
-    padding: ${({ theme }) => `${theme.spaces[15]}px ${theme.spaces[30]}px`};
     max-width: ${({ theme }) => theme.sizes.width[340]}px;
     width: 100%;
+  }
+
+  @media (min-width: ${({ theme }) => theme.screenSizes[600]}px) {
+    padding: ${({ theme }) => `${theme.spaces[15]}px ${theme.spaces[30]}px`};
 
     &:before {
       width: ${({ theme }) => theme.sizes.width[20]}px;
