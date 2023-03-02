@@ -6,6 +6,7 @@ export const Button = styled.button<{
   background: string;
 }>`
   width: 100%;
+  max-width: inherit;
   padding: ${({ theme }) => `${theme.spaces[5]}px ${theme.spaces[10]}px`};
   color: ${({ textColor }) => textColor};
   background-color: ${({ background }) => background};
@@ -34,5 +35,9 @@ export const Button = styled.button<{
       background-size: cover;
       margin-right: ${({ theme }) => theme.spaces[20]}px;
     }
+  }
+
+  @media (max-width: ${({ theme }) => theme.screenSizes[860]}px) {
+    max-width: auto;
   }
 `;
