@@ -5,4 +5,5 @@ export const LogoStyled = styled.img<{
 }>`
   width: 100%;
   max-width: ${({ width }) => width}px;
+  min-width: ${({ theme }) => theme.sizes.width[100]}px;
 `;

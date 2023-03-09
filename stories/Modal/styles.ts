@@ -7,7 +7,7 @@ export const Wrapper = styled.div`
   width: 100%;
   height: 100%;
   display: flex;
-  alignitems: center;
+  align-items: center;
   justify-content: center;
   z-index: ${({ theme }) => theme.zIndex[1000]};
 `;

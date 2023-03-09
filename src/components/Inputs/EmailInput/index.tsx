@@ -5,8 +5,9 @@ import Send from '@/assets/icons/send.png';
 import { Tooltip } from '@/components/Tooltip';
 
 import { Icon, Label, StyledField, SubmitButton, Wrapper } from './styles';
+import { IEmailInput } from './interface';
 
-export const EmailInput = () => {
+export const EmailInput = ({placeholder}: IEmailInput) => {
   const emailId = useId();
 
   return (
@@ -16,7 +17,7 @@ export const EmailInput = () => {
           id={emailId}
           type="email"
           name="email"
-          placeholder="Enter email"
+          placeholder={placeholder}
           autoComplete="off"
         />
         <ErrorMessage name="email">

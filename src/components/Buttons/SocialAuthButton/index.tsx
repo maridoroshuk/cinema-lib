@@ -7,6 +7,7 @@ import { LogoButton } from './LogoButton';
 export const SocialAuthButton = ({
   variant,
   handleButtonClick,
+  children,
 }: ISocialAuthButtonProps) => {
   return (
     <>
@@ -16,7 +17,7 @@ export const SocialAuthButton = ({
           value={variant}
           onClick={handleButtonClick}
         >
-          Continue with Google
+          {children}
         </LogoButton>
       ) : null}
       {variant === 'facebook' ? (
@@ -25,7 +26,7 @@ export const SocialAuthButton = ({
           value={variant}
           onClick={handleButtonClick}
         >
-          Sign up with Facebook
+          {children}
         </LogoButton>
       ) : null}
       {variant === 'github' ? (
@@ -34,7 +35,7 @@ export const SocialAuthButton = ({
           value={variant}
           onClick={handleButtonClick}
         >
-          Sign up with GitHub
+          {children}
         </LogoButton>
       ) : null}
     </>

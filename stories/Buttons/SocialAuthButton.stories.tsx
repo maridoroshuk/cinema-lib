@@ -15,7 +15,7 @@ export default {
 } as ComponentMeta<typeof SocialAuthButton>;
 
 const Template: ComponentStory<typeof SocialAuthButton> = (args) => (
-  <SocialAuthButton {...args} />
+  <SocialAuthButton {...args}>{`Continue with ${args.variant}`}</SocialAuthButton>
 );
 
 export const Primary = Template.bind({});
